@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CreateToken</name>
+   <name>HealthCheck</name>
    <tag></tag>
    <comment></comment>
-
+   <testCaseGuid>630a041b-e844-4cfa-8d3f-5b555ee17f53</testCaseGuid>
 </TestCaseEntity>
