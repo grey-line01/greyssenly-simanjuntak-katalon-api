@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Greyssenly - Test Case Import Jira - Health Check
+Description: @Ping
+
+Feature: HealthCheck
+
+As a user, I want to confirm whether the API is up and running.
+
+@Valid 
+
+Scenario: Get HealthCheck
+
+Given URL [https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]
+
+When I send a GET request
+
+Then the response status code should be 201 </description>
+   <name>ABP-4 Greyssenly - Test Case Import Jira - Health Check</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0003j:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;ABP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;API Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Greyssenly - Test Case Import Jira - Health Check&quot;,&quot;description&quot;:&quot;@Ping\n\nFeature: HealthCheck\n\nAs a user, I want to confirm whether the API is up and running.\n\n@Valid \n\nScenario: Get HealthCheck\n\nGiven URL [https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]\n\nWhen I send a GET request\n\nThen the response status code should be 201 &quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/ABP-4/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10019&quot;,&quot;key&quot;:&quot;ABP-4&quot;,&quot;id&quot;:10019}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>91752c52-1b98-4891-a739-df9c5153d2ef</testCaseGuid>
+</TestCaseEntity>

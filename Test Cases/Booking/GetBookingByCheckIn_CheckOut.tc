@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetBookingByCheckIn_CheckOut</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>491e94d4-3a12-4708-8161-d07246d8e1f4</testCaseGuid>
+</TestCaseEntity>
